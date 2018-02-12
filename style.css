@@ -1,0 +1,46 @@
+.bttn {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+    transition: background-color 0.15s;
+    padding: 0;
+}
+
+.bttn:hover {
+    text-decoration: none;
+    background-color: rgba(255, 0, 106, 0.25);
+    cursor: pointer;
+}
+
+.bttn:focus {
+    outline: 2px;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 106, 0.25);
+}
+
+#numberContainer {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+#user_number {
+    display: flex;
+}
+
+#random_number {
+    display: flex;
+}
+
+#resultat {
+    display: flex;
+}
